@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistry Haven</title>
+
+    <style>
+        *{
+            font-family: "Monserrat", sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            line-height: 1.5;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            overflow-x: hidden;
+        }
+        .header-cont{
+            background: linear-gradient(to right, #6262be, #de4a4a);
+            width: 100vw;
+            height: 80vh;
+            color: #fff;
+            position: relative;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            position: sticky;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 10;
+        }
+        .nav-links{
+            list-style: none;
+            display: flex;
+            gap: 35px;
+        }
+        .nav-links li a{
+            text-decoration: none;
+            color: #fff;
+            font-weight: 500;
+            font-size: 15px;
+
+        }
+        .nav-links li a:hover{
+            color: #000;
+            background-color: #fff;
+            padding: 10px;
+        }
+        .caption{
+            margin: 13% 10%;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 100;
+        }
+        .bg-special{
+            background-color: #fff9c4;
+            color: #333333;
+        }
+        .section-heading{
+            text-align: center;
+            margin: 50px 0px 10px 0px;
+            font-size: 1.5rem;
+        }
+        .section-heading-border{
+            width: 200px;
+            height: 4px;
+            background-color: #ff6f61;
+            margin: 0 auto 20px auto;
+        }
+        .services{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            text-align: center;
+            padding: 50px;
+        }
+        .service{
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+        }
+        /*gallery section*/
+        .gallery{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .gallery-item{
+            width: 30%;
+        }
+        .gallery-item:hover{
+            transform: scale(1.1);
+            transition: 0.8s ease-in-out;
+
+        }
+        .gallery-itemimg{
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!--Hero-section-->
+    <header class="header-cont">
+        <nav class="navbar">
+            <div class="logo">
+                <h2>Artistry haven</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+        <div class="caption">
+            <h1><span class="bg-special">Dive into a world</span> where colours come alive, and 
+                <span class="bg-special"> imagination takes flight</span></h1>
+
+        </div>
+    </header>
+    <!--Sercices section-->
+    <section class="services-cont">
+        <h2 class="section-heading"> Our services</h2>
+            <div class="section-heading-border"></div>
+
+
+        <div class="services">
+            <div class="service">
+                <div class="service-icon">
+                    <img src="P4.jpg" alt="">
+                </div>
+                <h3>Painting</h3>
+                <p>Explore a vibrant collection of paintings that capture 
+                    the essence of creativity and emotion</p>
+            </div>
+
+            <div class="service">
+                <div class="service-icon">
+                    <img src="sculpture3.jpg" alt="">
+                </div>
+                <h3>Sculpture</h3>
+                <p>Discover intricate sculpture,that bring form and texture to life, 
+                    showcasing artisticc miste</p>
+            </div>
+            
+            <div class="service">
+                <div class="service-icon">
+                    <img src="DA3.jpg" alt="">
+                </div>
+                <h3>Digital Art</h3>
+                <p>Dive into the realm of digital artistry
+                    , where techology meets imagination to create stunning visuals</p>
+            </div> 
+        </div>
+    </section>
+    <!---Gallery section-->
+    <section class="gallery-cont"  id="gallery">
+        <h2 class="section-heading">Gallery</h2>
+            <div class="section-heading-border"></div>
+        
+        <div class="gallery">
+            <div class="gallery-item">
+                <a href="DA1.jpg" target="_blank">
+                    <img src="DA1.jpg" alt="Digital Art" >
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="p2.jpg" target="_blank">
+                    <img src="p2.jpg" alt="Digital Art" >
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="sculpture1.jpg" target="_blank">
+                    <img src="sculpture1.jpg" alt="sculpture" >
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="sculpture2.jpg" target="_blank">
+                    <img src="sculpture2.jpg" alt="sculpture" >
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="P1.jpg"  target="_blank">
+                    <img src="P1.jpg" alt="painting" >
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="P5.jpg" target="_blank">
+                    <img src="P5.jpg" alt="painting" >
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="DA5.jpg" target="_blank">
+                    <img src="DA5.jpg" alt="Digital Art">
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="sculpture3.jpg" target="_blank">
+                    <img src="sculpture3.jpg" alt="sculpture" >
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="p3.jpg" target="_blank">
+                    <img src="p3.jpg" alt="painting">
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="DA4.jpg" target="_blank">
+                    <img src="DA4.jpg" alt="Digital Art" >
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
